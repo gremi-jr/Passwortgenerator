@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPasswort", "CheckPasswort\CheckPasswort.csproj", "{FC2844B7-8641-4CB7-997D-5FFEE290F997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC2844B7-8641-4CB7-997D-5FFEE290F997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2844B7-8641-4CB7-997D-5FFEE290F997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2844B7-8641-4CB7-997D-5FFEE290F997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2844B7-8641-4CB7-997D-5FFEE290F997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {379F949C-FE33-4FCE-8DE8-05241C0B07EF}
+	EndGlobalSection
+EndGlobal
