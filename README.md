@@ -5,3 +5,5 @@ Dieses Programm überprüft Ihr eingegebenes Passwort nach folgenden Regeln:
 2. Das Passwort muss mindestens ein Groß-, sowie Kleinbuchstaben enthalten. Umlaute (ä, ö, ü) sind auch erlaubt und erwünscht!
 3. Das Passwort muss mindestens ein Sonderzeichen enthalten. Erlaubte Sonderzeichen sind: /,.;:_?!+%&()><=$'*-
 4. Das Passwort muss mindestens eine Zahl enthalten.
+
+Des Weiteren besteht die möglichkeit ein Passwort nach diesen Regeln zu generieren.
