@@ -1,4 +1,7 @@
 # Password-Check-Programm
+
+German:
+
 Dieses Programm überprüft Ihr eingegebenes Passwort nach folgenden Regeln:
 
 1. Das Passwort muss mindestens 8 Zeichen kurz sein!
@@ -7,3 +10,15 @@ Dieses Programm überprüft Ihr eingegebenes Passwort nach folgenden Regeln:
 4. Das Passwort muss mindestens eine Zahl enthalten.
 
 Des Weiteren besteht die möglichkeit ein Passwort nach diesen Regeln zu generieren.
+___________________________________________________________________________________________________________________________-
+
+English:
+
+The Program chech your passwort on the following rules:
+
+1. Your password need to be at least 8 characters.
+2. Your password must contain at least one capital and one small letter.
+3. Your password must contain at least one special character like "/,.;:_?!+%&()><=$'*-".
+4. Your password must contain at least one number.
+
+You have the choice to generate a password.
