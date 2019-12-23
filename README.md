@@ -4,11 +4,14 @@ German:
 
 Um das Programm zu starten, führen Sie "Passwortgenerator.exe" aus.
 
-![Overview](Pictures/Passwortgenerator.png)
+Unter "Generator können Sie ein Passwort generieren. Der Button "Kopieren", kopiert Ihnen das Passwort in Ihre Zwischenablage.
+![Generator](Pictures/Passwortgenerator.PNG)
+
+Unter "Check-Up" können Sie ihr Passwort überprüfen lassen.
+![Check-Up](Pictures/Passwortgenerator_CheckUp.PNG)
 
 Unter dem Menüpunkt "Help" finden Sie Regeln wonach das Programm ein Passwort generiert und Überprüft.
-
-![Help](Pictures/Passwortgenerator_Help.png)
+![Help](Pictures/Passwortgenerator_Help.PNG)
 ___________________________________________________________________________________________________________________________
 
 English:
