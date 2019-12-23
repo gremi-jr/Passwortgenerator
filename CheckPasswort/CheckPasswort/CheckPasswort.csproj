@@ -5,9 +5,9 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FC2844B7-8641-4CB7-997D-5FFEE290F997}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>CheckPasswort</RootNamespace>
-    <AssemblyName>CheckPasswort</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Passwortgenerator</RootNamespace>
+    <AssemblyName>Passwortgenerator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>password_3715.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -76,6 +82,9 @@
     <EmbeddedResource Include="Oberfläche.resx">
       <DependentUpon>Oberfläche.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="password_3715.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

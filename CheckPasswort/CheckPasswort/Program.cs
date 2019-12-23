@@ -26,6 +26,8 @@ namespace CheckPasswort
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Oberfläche());
+            
+            //Old Console Application
             /* Start:
                  //Variablen
                  String passwortEingabe;
@@ -220,6 +222,4 @@ namespace CheckPasswort
              */
         }
     }
-
-
 }

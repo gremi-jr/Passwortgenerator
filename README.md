@@ -2,14 +2,13 @@
 
 German:
 
-Dieses Programm überprüft Ihr eingegebenes Passwort nach folgenden Regeln:
+Um das Programm zu starten, führen Sie "Passwortgenerator.exe" aus.
 
-1. Das Passwort muss mindestens 8 Zeichen kurz sein!
-2. Das Passwort muss mindestens ein Groß-, sowie Kleinbuchstaben enthalten. Umlaute (ä, ö, ü) sind auch erlaubt und erwünscht!
-3. Das Passwort muss mindestens ein Sonderzeichen enthalten. Erlaubte Sonderzeichen sind: /,.;:_?!+%&()><=$'*-
-4. Das Passwort muss mindestens eine Zahl enthalten.
+![Overview](Pictures/Passwortgenerator.png)
 
-Des Weiteren besteht die Möglichkeit ein Passwort nach diesen Regeln zu generieren.
+Unter dem Menüpunkt "Help" finden Sie Regeln wonach das Programm ein Passwort generiert und Überprüft.
+
+![Help](Pictures/Passwortgenerator_Help.png)
 ___________________________________________________________________________________________________________________________
 
 English:
