@@ -341,13 +341,6 @@ namespace CheckPasswort
             return new string(chars);
         }
 
-
-        private void aboutToolStripMenuItem_Click(object sender, System.EventArgs e)
-        {
-            About aboutForm = new About();
-            aboutForm.Show();
-        }
-
         private void btnErstellen_Click(object sender, System.EventArgs e)
         {
             int passwortLänge = Convert.ToInt32(numericUpDown.Value);
@@ -379,6 +372,7 @@ namespace CheckPasswort
             if (passwort.Length <= 7)
             {
                 checkBoxminBuchstaben.ForeColor = System.Drawing.Color.Red;
+                checkBoxminBuchstaben.Checked = false;
             }
             else
             {
@@ -395,6 +389,7 @@ namespace CheckPasswort
             else
             {
                 checkBoxGroßbuchstaben.ForeColor = System.Drawing.Color.Red;
+                checkBoxGroßbuchstaben.Checked = false;
             }
             //KLEINBUCHSTABEN
             if (Regex.IsMatch(passwort, @"[a-z_üäö]"))
@@ -405,6 +400,7 @@ namespace CheckPasswort
             else
             {
                 checkBoxKleinbuchstaben.ForeColor = System.Drawing.Color.Red;
+                checkBoxKleinbuchstaben.Checked = false;
             }
             //SONDERZEICHEN
             if (Regex.IsMatch(passwort, @"[/,.;:_?!+%&()><=$'*-]"))
@@ -416,6 +412,7 @@ namespace CheckPasswort
             else
             {
                 checkBoxSonderzeichen.ForeColor = System.Drawing.Color.Red;
+                checkBoxSonderzeichen.Checked = false;
             }
             //ZAHLEN
             if (Regex.IsMatch(passwort, @"[0-9]"))
@@ -427,6 +424,7 @@ namespace CheckPasswort
             else
             {
                 checkBoxZahlen.ForeColor = System.Drawing.Color.Red;
+                checkBoxZahlen.Checked = false;
             }
         }
 
@@ -434,6 +432,12 @@ namespace CheckPasswort
         {
             Help helpForm = new Help();
             helpForm.Show();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            About aboutForm = new About();
+            aboutForm.Show();
         }
     }
 }
