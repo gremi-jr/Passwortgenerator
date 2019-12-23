@@ -1,6 +1,5 @@
 # Passwortgenerator
 
-German:
 
 Um das Programm zu starten, führen Sie "Passwortgenerator.exe" aus.
 
