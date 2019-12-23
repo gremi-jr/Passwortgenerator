@@ -1,4 +1,4 @@
-# Password-Check-Programm
+# Passwortgenerator
 
 German:
 
