@@ -1,6 +1,6 @@
 # Passwortgenerator
 
-To start the program start "Passwortgenerator.exe".
+To start the program, launch "Passwortgenerator.exe".
 
 Under "Generator", you can create a password. The button "Kopieren" copied the password to your clipboard. 
 ![Generator](Pictures/Passwortgenerator.PNG)
